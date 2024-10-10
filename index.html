@@ -9,13 +9,20 @@
     <label for="name">Nome completo:</label>
     <input type="text" id="name" name="name" placeholder="Digite seu nome">
     <br>
+    <label for="name">RG/CPF:</label>
+    <input type="text" id="name" name="name" placeholder="Digite seu RG ou CPF">
+    <br>
+    
+    <br>
     <label for="email para contato">Email:</label>
     <input type="email" id="email" name="email" placeholder="Digite seu email">
     <br>
     <label for="telNo">Número de telefone:</label>
-    <input type="tel" id="telNo" name="telNo" placeholder="Digite seu número"/>
+    <input type="tel" id="telNo" name="telNo" placeholder="Digite seu número" pattern="[0-9]"/>
     <br>
-    <label for="gender-male">
+
+    <br>
+    <label for="gender-male">Gênero</label>
     <input type="radio" id="gender-male" name="gender" value="male">
     Masculino
     </label>
@@ -23,18 +30,9 @@
     <input type="radio" id="gender-female" name="gender" value="female">
     Feminino
     </label>
-    <br>
-    <label for="food">Especificações de comida: </label>
-    <input type="checkbox" id="food" name="Especificações de comida:">
-    Sou vegano(a)
-    </label>
-    <label for="food">
-    <input type="checkbox" id="food">
-    Sou vegetariano(a)
-    </label>
-    <label for="allergies">
-    <input type="checkbox" id="allergies" name="Alergias:">
-    Possuo alergias
+    <label for="other-gender">
+    <input type="radio" id="other-gender" name="gender" value="other">
+    Outro
     </label>
     <br>
     <label for="message">Liste os alimentos que tem alergia (se houver):</label>
