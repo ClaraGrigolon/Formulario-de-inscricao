@@ -10,7 +10,7 @@
     <input type="text" id="name" name="name" placeholder="Digite seu nome">
     <br>
     <label for="name">RG/CPF:</label>
-    <input type="text" id="name" name="name" placeholder="Digite seu RG ou CPF">
+    <input type="text" id="name" name="name" placeholder="Digite seu RG ou CPF" pattern="[0-9]-">
     <br>
     
     <br>
@@ -18,11 +18,11 @@
     <input type="email" id="email" name="email" placeholder="Digite seu email">
     <br>
     <label for="telNo">Número de telefone:</label>
-    <input type="tel" id="telNo" name="telNo" placeholder="Digite seu número" pattern="[0-9]"/>
+    <input type="tel" id="telNo" name="telNo" placeholder="Digite seu número" pattern="[0-9]-()"/>
     <br>
 
     <br>
-    <label for="gender-male">Gênero</label>
+    <label for="gender-male">Gênero: </label>
     <input type="radio" id="gender-male" name="gender" value="male">
     Masculino
     </label>
